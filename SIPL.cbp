@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SIPL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\SIPL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:\Users\Anh\Desktop\SIPL\include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\SIPL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include\BMP.h" />
+		<Unit filename="include\Convert.h" />
+		<Unit filename="include\Detection.h" />
+		<Unit filename="include\Fiter.h" />
+		<Unit filename="include\Histogram.h" />
+		<Unit filename="include\Image.h" />
+		<Unit filename="include\PNM.h" />
+		<Unit filename="include\Pixel.h" />
+		<Unit filename="include\Process.h" />
+		<Unit filename="include\Rotate.h" />
+		<Unit filename="include\TIFF.h" />
+		<Unit filename="include\Texture.h" />
+		<Unit filename="include\Window.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src\BMP.cpp" />
+		<Unit filename="src\Convert.cpp" />
+		<Unit filename="src\Detection.cpp" />
+		<Unit filename="src\Fiter.cpp" />
+		<Unit filename="src\Histogram.cpp" />
+		<Unit filename="src\Image.cpp" />
+		<Unit filename="src\PNM.cpp" />
+		<Unit filename="src\Process.cpp" />
+		<Unit filename="src\Rotate.cpp" />
+		<Unit filename="src\TIFF.cpp" />
+		<Unit filename="src\Texture.cpp" />
+		<Unit filename="src\Window.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

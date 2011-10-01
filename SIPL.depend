@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1309419401 source:c:\users\anh\desktop\sipl\src\image.cpp
+	"Image.h"
+
+1309419948 c:\users\anh\desktop\sipl\include\image.h
+	<stdio.h>
+	<stdlib.h>
+	"Pixel.h"
+
+1309419901 c:\users\anh\desktop\sipl\include\pixel.h
+
+1309419457 source:c:\users\anh\desktop\sipl\main.cpp
+	<iostream>
+	"Image.h"
+	"BMP.h"
+	"Histogram.h"
+
+1309419576 source:c:\users\anh\desktop\sipl\src\bmp.cpp
+	"BMP.h"
+	<string.h>
+	<math.h>
+
+1309419594 c:\users\anh\desktop\sipl\include\bmp.h
+	"Image.h"
+
+1308811225 source:c:\users\anh\desktop\sipl\src\convert.cpp
+	"Convert.h"
+
+1308811225 c:\users\anh\desktop\sipl\include\convert.h
+
+1308810878 source:c:\users\anh\desktop\sipl\src\detection.cpp
+	"Detection.h"
+
+1308810878 c:\users\anh\desktop\sipl\include\detection.h
+
+1308810688 source:c:\users\anh\desktop\sipl\src\fiter.cpp
+	"Fiter.h"
+
+1308810688 c:\users\anh\desktop\sipl\include\fiter.h
+
+1309318147 source:c:\users\anh\desktop\sipl\src\histogram.cpp
+	"Histogram.h"
+
+1309267322 c:\users\anh\desktop\sipl\include\histogram.h
+	"Image.h"
+	"BMP.h"
+	<string.h>
+
+1308811028 source:c:\users\anh\desktop\sipl\src\pnm.cpp
+	"PNM.h"
+
+1308811028 c:\users\anh\desktop\sipl\include\pnm.h
+
+1308810718 source:c:\users\anh\desktop\sipl\src\rotate.cpp
+	"Rotate.h"
+
+1308810718 c:\users\anh\desktop\sipl\include\rotate.h
+
+1308811338 source:c:\users\anh\desktop\sipl\src\tiff.cpp
+	"TIFF.h"
+
+1308811338 c:\users\anh\desktop\sipl\include\tiff.h
+
+1308810981 source:c:\users\anh\desktop\sipl\src\texture.cpp
+	"Texture.h"
+
+1308813849 c:\users\anh\desktop\sipl\include\texture.h
+
+1308896030 source:c:\users\anh\desktop\sipl\src\process.cpp
+	"Process.h"
+
+1308896030 c:\users\anh\desktop\sipl\include\process.h
+
+1309261595 source:c:\users\anh\desktop\sipl\src\window.cpp
+	"Window.h"
+
+1309261595 c:\users\anh\desktop\sipl\include\window.h
+
